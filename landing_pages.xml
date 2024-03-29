@@ -8,6 +8,7 @@
 	Version: 1.0.0
     Last revision: 2024-04-01
 -->
+<?xml-model href="landing_pages.xsd"?>
 <data>
 	<python>
 		<url>https://www.python.org/</url>
@@ -67,6 +68,9 @@
 		<url>https://couchdb.apache.org/</url>
 		<url>https://en.wikipedia.org/wiki/Amazon_DynamoDB</url>
 	</db>
+	<digitallibrary>
+		<url>https://www.faena.com/aleph/the-8-best-digital-libraries</url>
+	</digitallibrary>
 	<distributedsystems>
 		<url>https://en.wikipedia.org/wiki/Apache_Kafka</url>
 		<url>https://kafka.apache.org/documentation/</url>
@@ -120,6 +124,12 @@
 		<url>https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-the-openai-api?source=post_page-----eeec904bad13--------------------------------</url>
 		<url>https://lilianweng.github.io/posts/2023-03-15-prompt-engineering/?source=post_page-----eeec904bad13--------------------------------</url>
 		<url>https://prompts.chat/?source=post_page-----eeec904bad13--------------------------------</url>
+		<url>https://medium.com/@pypaya_tech/14-great-free-resources-on-prompt-engineering-in-one-place-eeec904bad13</url>
+		<url>https://www.linkedin.com/pulse/how-become-prompt-engineer-moe-shawky</url>
+		<url>https://promptengineering.org/about/</url>
+		<url>https://promptengineeringguide.online/</url>
+		<url>https://promptjobs.dev/article/How_to_Stay_UptoDate_with_the_Latest_Developments_in_Prompt_Engineering_Resources_and_Tools.html</url>
+		<url>https://promptengineeringguide.online/#prompt-overview</url>
 	</promptengineering>
 	<r>
 		<url>https://en.wikipedia.org/wiki/R_(programming_language)</url>
@@ -142,8 +152,16 @@
 	<tableau>
 		<url>https://www.tableau.com/</url>
 	</tableau>
-	<ml>
+	<machinelearning>
 		<url>https://www.tensorflow.org/</url>
-		<url></url>
-	</ml>
+	</machinelearning>
+	<documentation>
+		<url>https://www.altova.com/manual/XMLSpy/spyenterprise/xstutxml.html</url>
+		<url>https://www.qualtrics.com/ebooks-guides/clarabridge-in-depth-examination-of-omnichannel-analysis/</url>
+		<url>https://swimm.io/blog/walkthrough-documentation-where-swimms-main-value-lies</url>
+		<url>https://dev.loom.com/docs/record-sdk/getting-started</url>
+		<url>https://docs.stripe.com/api/errors</url>
+		<url>https://support.google.com/a/users?sjid=12290212116724050997-EU#topic=11499463</url>
+		<url>https://help.ubuntu.com/</url>
+	</documentation>
 </data>
