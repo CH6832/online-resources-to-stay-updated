@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="data">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="python">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="url" maxOccurs="unbounded" type="xs:string" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="cplusplus">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="url" maxOccurs="unbounded" type="xs:string" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="cloud">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="url" maxOccurs="unbounded" type="xs:string" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="devops">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="url" maxOccurs="unbounded" type="xs:string" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="build">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="url" maxOccurs="unbounded" type="xs:string" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="api">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="url" maxOccurs="unbounded" type="xs:string" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="db">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="url" maxOccurs="unbounded" type="xs:string" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="digitallibrary">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="url" type="xs:string" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="distributedsystems">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="url" maxOccurs="unbounded" type="xs:string" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="vba">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="url" maxOccurs="unbounded" type="xs:string" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="sourcecontrol">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="url" maxOccurs="unbounded" type="xs:string" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="golang">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="url" type="xs:string" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="javascript">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="url" maxOccurs="unbounded" type="xs:string" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="java">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="url" maxOccurs="unbounded" type="xs:string" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="hardware">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="url" type="xs:string" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="kotlin">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="url" type="xs:string" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="operatingsystem">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="url" maxOccurs="unbounded" type="xs:string" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="ocaml">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="url" type="xs:string" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="promptengineering">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="url" maxOccurs="unbounded" type="xs:string" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="r">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="url" maxOccurs="unbounded" type="xs:string" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="scala">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="url" maxOccurs="unbounded" type="xs:string" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="sql">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="url" maxOccurs="unbounded" type="xs:string" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="tableau">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="url" type="xs:string" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="machinelearning">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="url" type="xs:string" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="documentation">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="url" maxOccurs="unbounded" type="xs:string" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
