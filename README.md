@@ -53,4 +53,4 @@ python3 open.py python
 
 ## :bookmark: License
 
-[GPL v3](https://www.gnu.org/licenses/gpl-3.0.txt) :copyright: 2024 Christoph Hartleb
+This project is licensed under the terms of the [GPL v3](LICENSE).
