@@ -20,7 +20,7 @@ class URLs:
     """Class handles entire database of urls."""
 
 
-    def __init__(self, abs_path_to_urls: str = r'websites.xml') -> None:
+    def __init__(self, abs_path_to_urls: str = r'data.xml') -> None:
         """Constructs all necessary attributes for the URLs object.
 
         Keyword arguments:

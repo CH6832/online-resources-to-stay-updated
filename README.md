@@ -7,9 +7,10 @@ A small command line program that open every single website located under a cert
 ### Content overview
 
     .
-    ├── landing_pages.xml - url storage
-    ├── landing_pages.xsd - schema for landing_pages.xml
+    ├── data.xml - url storage
+    ├── data.xsd - schema for the resources
     ├── LICENSE - license text
+    ├── open_test.py - test functions of open.py    
     ├── open.py - main program
     ├── README.md - relevant information about the project
     └── requirements.txt - requirements to run the project
@@ -27,16 +28,16 @@ pip3 install -r requirements.txt
 2. Run script:
 
 ```bash
-python3 open.py python
+python3 open.py documentation
 ```
 
 ## :books: Resources used to create this project
 
 * Python
-  * [Python 3.11 documentation](https://docs.python.org/3.11/)
-  * [Built-in Functions](https://docs.python.org/3.11/library/functions.html)
-  * [Python Module Index](https://docs.python.org/3.11/py-modindex.html)
-  * [unittest - Unit testing framework](https://docs.python.org/3.11/library/unittest.html)
+  * [Python 3.12 documentation](https://docs.python.org/3/)
+  * [Built-in Functions](https://docs.python.org/3/library/functions.html)
+  * [Python Module Index](https://docs.python.org/3/py-modindex.html)
+  * [unittest - Unit testing framework](https://docs.python.org/3/library/unittest.html)
   * [pylint](https://pylint.readthedocs.io/en/stable/)
   * [mypy](https://mypy.readthedocs.io/en/stable/)
   * [xml.etree.ElementTree](https://docs.python.org/3.11/library/xml.etree.elementtree.html)
