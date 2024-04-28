@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- .................................................................................................................................. -->
-<!-- .................................................... landing_pages.xml ........................................................... -->
+<!-- .................................................... data.xml ........................................................... -->
 <!--
-	This file contains URLs that link to websites where content is presented to keep you up to date on various topics.
+	This file contains URLs linking to online resources to keep you up to date on various topics.
 
     Author: Christoph Hartleb
-	Version: 1.0.0
-    Last revision: 2024-03-29
+	Version: 2.0.0
+    Last revision: 2024-04-28
 -->
 <?xml-model href="data.xsd"?>
 <data>
@@ -20,7 +20,7 @@
 		<url>https://lifehacker.com/</url>
 		<url>https://www.tecmint.com/</url>
 		<url>https://www.ubuntupit.com/</url>
-		<url>https://wiki.ubuntuusers.de/Cron/</url>
+		<url>https://wiki.ubuntuusers.de/Cron/</url>	
 	</articles>	
 	<blogs>
 		<url>https://www.python.org/blogs/</url>
@@ -31,6 +31,46 @@
 		<url>https://www.linuxandubuntu.com/</url>
 		<url>https://www.makeuseof.com/</url>
 		<url>https://askubuntu.com/</url>
+		<url>https://blog.hubspot.com/website/what-is-gui</url>
+		<url>https://blog.logrocket.com/ux-design/essential-gui-design-principles/</url>
+		<url>https://uizard.io/blog/guide-to-gui-design/</url>
+		<url>https://www.figma.com/de/blog/?ref=designerup.co</url>
+		<url>https://www.appleandbanana.org/?ref=designerup.co</url>
+		<url>https://blog.prototypr.io/</url>
+		<url>https://boxesandarrows.com/?ref=designerup.co</url>
+		<url>https://usabilitygeek.com/?ref=designerup.co</url>
+		<url>https://blog.logrocket.com/product-management/unit-testing-guide/</url>
+		<url>https://saucelabs.com/resources/blog/unit-testing-best-practices</url>
+		<url>https://brightsec.com/blog/unit-testing/</url>
+		<url>https://openai.com/</url>
+		<url>https://distill.pub/</url>
+		<url>https://www.machinelearningisfun.com/</url>
+		<url>https://machinelearningmastery.com/blog/</url>
+		<url>https://bair.berkeley.edu/blog/</url>
+		<url>https://fastml.com/</url>
+		<url>https://aws.amazon.com/de/blogs/machine-learning/</url>
+		<url>https://machinelearning.apple.com/</url>
+		<url>https://ai.google/discover/research/</url>
+		<url>https://blog.google/technology/ai/</url>
+		<url>https://www.elastic.co/guide/index.html</url>
+		<url>https://feedly.com/i/subscription/feed%2Fhttp%3A%2F%2Fpetr-mitrichev.blogspot.com%2Ffeeds%2Fposts%2Fdefault</url>
+		<url>https://codeforces.com/blog/entry/13529</url>
+		<url>https://www.hackerearth.com/blog/algorithms/</url>
+		<url>https://www.reddit.com/r/compsci/comments/380q72/what_are_your_favorite_blogs_for_staying_fresh_on/</url>
+		<url>https://codeforces.com/blog/entry/91363</url>
+		<url>https://www.smartdatacollective.com/</url>
+		<url>https://www.datasciencecentral.com/</url>
+		<url>https://whatsthebigdata.com/</url>
+		<url>https://medium.com/kaggle-blog</url>
+		<url>https://insidebigdata.com/</url>
+		<url>https://www.computerweekly.com/resources/Microservices</url>
+		<url>https://blogs.infomentum.com/topic/microservices</url>
+		<url>https://bankautomationnews.com/</url>
+		<url>https://www.crowdfundinsider.com/</url>
+		<url>https://www.eu-startups.com/</url>
+		<url>https://www.finextra.com/</url>
+		<url>https://blog.re-work.co/</url>
+		<url>https://react.dev/blog</url>
 	</blogs>
 	<documentations>
 		<url>https://docs.python.org/3/</url>
@@ -83,6 +123,60 @@
 		<url>https://numpy.org/doc/stable/</url>
 		<url>https://ipython.org/documentation.html</url>
 		<url>https://www.markdownguide.org/basic-syntax/</url>
+		<url>https://hibernate.org/orm/documentation/7.0/</url>
+		<url>https://jakarta.ee/specifications/</url>
+		<url>https://www.elastic.co/guide/index.html</url>
+		<url>https://datatracker.ietf.org/doc/html/rfc5321</url>
+		<url>https://www.loc.gov/preservation/digital/formats/intro/specifications.shtml#zip</url>
+		<url>https://grafana.com/docs/grafana/latest/</url>
+		<url>https://www.kubeflow.org/docs/</url>
+		<url>https://docs.pytest.org/en/7.1.x/getting-started.html</url>
+		<url>https://docs.anaconda.com/index.html</url>
+		<url>https://python-poetry.org/docs/</url>
+		<url>https://docs.pydantic.dev/dev/</url>
+		<url>https://dev.mysql.com/doc/</url>
+		<url>https://docs.aws.amazon.com/</url>
+		<url>https://docs.aws.amazon.com/athena/</url>
+		<url>https://www.hl7.org/fhir/documentation.html</url>
+		<url>https://docs.gitlab.com/</url>
+		<url>https://devdocs.io/fastapi/</url>
+		<url>https://kubernetes.io/docs/home/</url>
+		<url>https://www.rabbitmq.com/docs</url>
+		<url>https://docs.docker.com/</url>
+		<url>https://doc.rust-lang.org/beta/</url>
+		<url>https://docs.swift.org/swift-book/documentation/the-swift-programming-language/</url>
+		<url>https://docs.scala-lang.org/</url>
+		<url>https://llama.meta.com/llama2/</url>
+		<url>https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/</url>
+		<url>https://www.php.net/docs.php</url>
+		<url>https://www.odoo.com/documentation/17.0/</url>
+		<url>https://www.r-project.org/other-docs.html</url>
+		<url>https://huggingface.co/docs/transformers/model_doc/bert</url>
+		<url>https://legacy.reactjs.org/docs/getting-started.html</url>
+		<url>https://angular.io/docs</url>
+		<url>https://vuejs.org/guide/introduction.html</url>
+		<url>https://keras.io/api/</url>
+		<url>https://ipython.readthedocs.io/en/stable/</url>
+		<url>https://www.raspberrypi.com/documentation/</url>
+		<url>https://docs.arduino.cc/</url>
+		<url>https://matplotlib.org/stable/index.html</url>
+		<url>https://seaborn.pydata.org/tutorial.html</url>
+		<url>https://graphviz.org/documentation/</url>
+		<url>https://swagger.io/solutions/api-documentation/</url>
+		<url>https://learning.postman.com/docs/publishing-your-api/documenting-your-api/</url>
+		<url>https://docs.opencv.org/</url>
+		<url>https://pycaret.gitbook.io/docs</url>
+		<url>https://www.w3.org/TR/2011/WD-html5-20110405/</url>
+		<url>https://www.w3schools.com/cssref/index.php</url>
+		<url>https://www.w3schools.com/sql/sql_quickref.asp</url>
+		<url>https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/</url>
+		<url>https://docs.splunk.com/Documentation</url>
+		<url>https://docs.fedoraproject.org/en-US/fedora-coreos/</url>
+		<url>https://vertx.io/docs/</url>
+		<url>https://prometheus.io/docs/introduction/overview/</url>
+		<url>https://doc.traefik.io/traefik/</url>
+		<url>https://developer.hashicorp.com/nomad/docs</url>
+		<url>https://caddyserver.com/docs/</url>
 	</documentations>
 	<websites>
 		<url>https://realpython.com/</url>
@@ -144,6 +238,16 @@
 		<url>https://www.bsigroup.com/de-DE/iso-27002/</url>
 		<url>https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/BSI-Standards/BSI-Standard-200-1-Managementsysteme-fuer-Informationssicherheit/bsi-standard-200-1-managementsysteme-fuer-informationssicherheit_node.html</url>
 		<url>https://www.geeksforgeeks.org/fuzzy-logic-introduction/</url>
-		<url>https://www.geeksforgeeks.org/artificial-intelligence-an-introduction/</url>		
+		<url>https://www.geeksforgeeks.org/artificial-intelligence-an-introduction/</url>
+		<url>https://en.wikipedia.org/wiki/CI/CD</url>
+		<url>https://standards.iso.org/ittf/PubliclyAvailableStandards/index.html</url>
+		<url>https://www.niso.org/publications/standards</url>
+		<url>https://www.oasis-open.org/standards/</url>
+		<url>https://www.w3.org/TR/</url>
+		<url>https://en.wikipedia.org/wiki/Electronic_data_interchange</url>
+		<url>https://github.com/keon/awesome-nlp</url>
+		<url>https://github.com/brianspiering/awesome-dl4nlp</url>
+		<url>https://www.youtube.com/playlist?list=PLoROMvodv4rOFZnDyrlW3-nI7tMLtmiJZ</url>
+		<url>https://keras.io/</url>
 	</websites>
 </data>
