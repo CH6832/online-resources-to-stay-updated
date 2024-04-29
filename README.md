@@ -2,7 +2,11 @@
 
 ## :newspaper: About the project
 
-A small command line program that open every single website located under a certain parent tag in the _websites.xml_ according to the parameter passed to the program.
+A small commandline which allows the user to open multiple websites at the same time, each in a separate tab.
+
+### How it works?
+
+1. 
 
 ### Content overview
 
@@ -19,13 +23,31 @@ A small command line program that open every single website located under a cert
 
 ### Prerequisites and example usage
 
-1. Install requirements:
+0. Clone the repository:
+
+```bash
+git clone https://github.com/CH6832/online-resources-to-stay-updated.zip
+```
+
+1. Extract the project:
+
+```bash
+tar -xf online-resources-to-stay-updated.zip
+```
+
+2. Navigate into the folder:
+
+```bash
+cd online-resources-to-stay-updated
+```
+
+3. Install requirements:
 
 ```bash
 pip3 install -r requirements.txt
 ```
 
-2. Run script:
+4. Run script:
 
 ```bash
 python3 open.py documentation
