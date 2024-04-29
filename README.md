@@ -4,9 +4,9 @@
 
 A small commandline which allows the user to open multiple websites at the same time, each in a separate tab.
 
-### How it works?
+### How it works
 
-1. 
+The ```open.py``` is the main program. If it's called, it reads in the structure of the ```data.xml``` file. The file must be called with a parameter, that has the same name as one of the tags a step below in the hierarchy of the root tags. Via this parameter, the script identifies the correct section of the file. It then iterates over all ```<url>``` tags and opens each url in a new browser tab.
 
 ### Content overview
 
