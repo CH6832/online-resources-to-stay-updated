@@ -26,7 +26,7 @@ The ```open.py``` is the main program. If it's called, it reads in the structure
 0. Clone the repository:
 
 ```bash
-git clone https://github.com/CH6832/online-resources-to-stay-updated.zip
+git clone https://github.com/CH6832/online-resources-to-stay-updated.git
 ```
 
 1. Extract the project:
