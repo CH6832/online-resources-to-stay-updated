@@ -11,6 +11,8 @@ The ```open.py``` is the main program. If it's called, it reads in the structure
 ### Content overview
 
     .
+    ├── CODE_OF_CONDUCT.md - project code of conduct
+    ├── COPYRIGHT - project copyright
     ├── data.xml - url storage
     ├── data.xsd - schema for the resources
     ├── LICENSE - license text
@@ -78,10 +80,10 @@ python3 open.py documentation
 
 This project is licensed under the terms of the [GPL v3](LICENSE).
 
-## COPYRIGHT
+## :copyright: Copyright
 
 See the [COPYRIGHT](COPYRIGHT) file for copyright and licensing details.
 
-## Code of Conduct
+## :straight_ruler: Code of Conduct
 
 Please review our [Code of Conduct](CODE_OF_CONDUCT.md) before contributing to this project.
