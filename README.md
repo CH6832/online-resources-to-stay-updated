@@ -77,3 +77,11 @@ python3 open.py documentation
 ## :bookmark: License
 
 This project is licensed under the terms of the [GPL v3](LICENSE).
+
+## COPYRIGHT
+
+See the [COPYRIGHT](COPYRIGHT) file for copyright and licensing details.
+
+## Code of Conduct
+
+Please review our [Code of Conduct](CODE_OF_CONDUCT.md) before contributing to this project.
