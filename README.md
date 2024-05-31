@@ -11,7 +11,6 @@ The ```open.py``` is the main program. If it's called, it reads in the structure
 ### Content overview
 
     .
-    ├── CODE_OF_CONDUCT.md - project code of conduct
     ├── COPYRIGHT - project copyright
     ├── data.xml - url storage
     ├── data.xsd - schema for the resources
