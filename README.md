@@ -115,7 +115,7 @@ git tag -a v1.0.0 -m "Initial release"
 3. Pushing to remote repo
 
 ```sh
-git remote add origin <repository_url>
+git remote add origin https://github.com/CH6832/online-resources-to-stay-updated.git
 git push origin main --tags
 ```
 
