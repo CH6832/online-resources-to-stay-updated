@@ -1,0 +1,99 @@
+# Python bytecode files
+__pycache__/
+*.py[cod]
+
+# Distribution / packaging
+*.egg
+*.egg-info
+dist/
+build/
+*.egg-info/
+
+# Virtual environment
+venv/
+.env/
+ENV/
+env/
+.venv/
+.ENV/
+.env.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Logs
+*.log
+
+# Coverage reports
+.coverage
+coverage.xml
+*.cover
+*.py,cover
+
+# Test and development artifacts
+*.nib
+*.spec
+nosetests.xml
+*.cover
+*.py,cover
+*.log
+*.tmp
+*.swp
+*.swo
+*.swn
+
+# Mypy
+.mypy_cache/
+
+# Pyre
+.pyre/
+
+# VS Code settings
+.vscode/
+
+# macOS Finder settings
+.DS_Store
+
+# Windows thumbnail cache
+Thumbs.db
+ehthumbs.db
+
+# Python environment configuration files
+*.pyd
+*.pyo
+*.pyc
+*.pyo
+
+# PyCharm
+.idea/
+
+# Other files
+*.csv
+*.dat
+*.db
+*.sqlite3
+
+# Archive files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.tar
+*.tgz
+
+# Dependency directories
+node_modules/
+bower_components/
+
+# Docker
+Dockerfile
+docker-compose.yml
+
+# Pytest
+.pytest_cache
