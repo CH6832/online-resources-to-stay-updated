@@ -1,8 +1,8 @@
-# URL Opener
+# Web Opener
 
 ## Table of Contents
 
-- [URL Opener](#url-opener)
+- [Web Opener](#web-opener)
   - [Table of Contents](#table-of-contents)
   - [About the project](#about-the-project)
     - [How it works](#how-it-works)
