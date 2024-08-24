@@ -144,6 +144,9 @@ git push origin main --tags
   * [.gitignore file](https://git-scm.com/docs/gitignore)
 * Editor
   * [Visual Studio Code](https://code.visualstudio.com/)
+* CI/CD
+  * [GitHub Actions documentation](https://docs.github.com/en/actions)
+  * [YAML Specification Index](https://yaml.org/spec/)
 * Commandline tools
   * [Build Command-Line Interfaces With Python's argparse](https://realpython.com/command-line-interfaces-python-argparse/)
   * [Master the Art of Command Line: Your Ultimate Guide to Developing Powerful Tools](https://hackernoon.com/master-the-art-of-command-line-your-ultimate-guide-to-developing-powerful-tools)
