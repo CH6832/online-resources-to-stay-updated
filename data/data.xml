@@ -10,7 +10,33 @@
 -->
 <?xml-model href="data.xsd"?>
 <data>
-	<articles>
+	<finance>
+		<url>https://www.investopedia.com/</url>
+		<url>https://www.finra.org/</url>
+		<url>https://www.thebalancemoney.com/</url>
+		<url>https://investor.vanguard.com/home</url>
+		<url>https://www.schwab.com/</url>
+		<url>https://www.fidelity.com/</url>
+		<url>https://www.bloomberg.com</url>
+		<url>https://www.wsj.com/</url>
+		<url>https://www.cnbc.com/world/?region=world</url>
+	</finance>
+	<math>
+		<url>https://writings.stephenwolfram.com/</url>
+		<url>https://mathkind.org/global-math-stories/https://mathkind.org/global-math-stories/</url>
+		<url>https://onlinelibrary.wiley.com</url>
+		<url>https://onlinelibrary.wiley.com/journal/4185</url>
+		<url>https://onlinelibrary.wiley.com/journal/4185</url>
+		<url>https://www.theglobalmathcircle.org/</url>
+	</math>
+	<physics>
+		<url>https://phys.org/</url>
+		<url>https://ww2.aip.org/</url>
+		<url>https://home.cern/</url>
+		<url>http://hyperphysics.phy-astr.gsu.edu/hbase/index.html</url>
+		<url>https://physics.mit.edu/</url>
+	</physics>
+	<tech>
 		<url>https://towardsdatascience.com/the-math-behind-a-b-testing-with-example-code-part-1-of-2-7be752e1d06f</url>
 		<url>https://towardsdatascience.com/the-math-behind-a-b-testing-with-example-code-part-1-of-2-7be752e1d06f</url>
 		<url>https://promptengineeringguide.online/</url>
@@ -20,9 +46,7 @@
 		<url>https://lifehacker.com/</url>
 		<url>https://www.tecmint.com/</url>
 		<url>https://www.ubuntupit.com/</url>
-		<url>https://wiki.ubuntuusers.de/Cron/</url>	
-	</articles>	
-	<blogs>
+		<url>https://wiki.ubuntuusers.de/Cron/</url>
 		<url>https://www.python.org/blogs/</url>
 		<url>https://www.quora.com/How-can-I-do-an-A-B-test-in-Python</url>
 		<url>https://kafka.apache.org/blog</url>
@@ -71,8 +95,6 @@
 		<url>https://www.finextra.com/</url>
 		<url>https://blog.re-work.co/</url>
 		<url>https://react.dev/blog</url>
-	</blogs>
-	<documentations>
 		<url>https://docs.python.org/3/</url>
 		<url>https://flask.palletsprojects.com/en/3.0.x/</url>
 		<url>https://docs.djangoproject.com/en/5.0/</url>
@@ -179,8 +201,6 @@
 		<url>https://doc.traefik.io/traefik/</url>
 		<url>https://developer.hashicorp.com/nomad/docs</url>
 		<url>https://caddyserver.com/docs/</url>
-	</documentations>
-	<websites>
 		<url>https://realpython.com/</url>
 		<url>https://en.wikipedia.org/wiki/High-performance_computing</url>
 		<url>https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/?source=post_page-----eeec904bad13--------------------------------</url>
@@ -251,5 +271,5 @@
 		<url>https://github.com/brianspiering/awesome-dl4nlp</url>
 		<url>https://www.youtube.com/playlist?list=PLoROMvodv4rOFZnDyrlW3-nI7tMLtmiJZ</url>
 		<url>https://keras.io/</url>
-	</websites>
+	</tech>
 </data>

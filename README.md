@@ -63,16 +63,20 @@ pip3 install -r requirements.txt
 3. Examples with the required parameters:
 
 ```bash
-py url_opener.py websites
+py url_opener.py tech
 ```
 
+or
+
 ```bash
-py url_opener.py articles
+py url_opener.py math
 ```
 
 ### Running tests
 
-pytest test_url_launcher.py
+```bash
+pytest test_url_opener.py
+```
 
 ## Versioning
 
@@ -84,9 +88,10 @@ The project uses Semantic Versioning to manage versions. Semantic Versioning fol
 
 Versioning Example
 
-* 1.0.0: Initial release with basic functionality.
-* 1.1.0: Added new features like tab completion and command aliases.
+* 1.2.0: Added commandline GUI.
 * 1.1.1: Fixed bugs and improved error handling.
+* 1.1.0: Added new features like tab completion and command aliases.
+* 1.0.0: Initial release with basic functionality.
 
 To see the current version of the project, check the __version__ attribute in the script or refer to the version tags in the Git repository.
 

@@ -25,6 +25,7 @@ logging.basicConfig(
     handlers=[logging.StreamHandler(sys.stderr)]
 )
 
+
 class URL:
     """Class represents a single URL."""
 
@@ -34,10 +35,12 @@ class URL:
 
         return None
 
+
     def get_url(self) -> str:
         """Returns the URL as a string."""
         
         return str(self.url)
+
 
 class URLs:
     """Handles the database of URLs."""
@@ -45,6 +48,7 @@ class URLs:
     def __init__(self, abs_path_to_urls: str = 'data/data.xml') -> None:
         """Initializes with the path to the XML database."""
         self.abs_path_to_urls = Path(abs_path_to_urls)
+
 
     def get_urls(self, selection_word: str) -> List[str]:
         """Collects URLs from the XML database based on the given selection word."""
@@ -66,6 +70,7 @@ class URLs:
         
         return urls
 
+
     def open_urls(self, browser_path: str, urls: List[str]) -> None:
         """Opens each URL in a new tab of the specified web browser."""
         for url in urls:
@@ -76,8 +81,10 @@ class URLs:
         
         return None
 
+
 def setup_argparse() -> argparse.ArgumentParser:
     """Sets up the argument parser for the command-line tool."""
+    
     parser = argparse.ArgumentParser(
         description=(
             "Open URLs from an XML file in a web browser.\n\n"
@@ -103,13 +110,42 @@ def setup_argparse() -> argparse.ArgumentParser:
 
     return parser
 
+
+def display_menu():
+    """Display the ASCII art menu and get the user's selection."""
+    print(r"""
+   __          __  _                          
+   \ \        / / | |                         
+    \ \  /\  / /__| | ___ ___  _ __ ___   ___ 
+     \ \/  \/ / _ \ |/ __/ _ \| '_ ` _ \ / _ \
+      \  /\  /  __/ | (_| (_) | | | | | |  __/
+       \/  \/ \___|_|\___\___/|_| |_| |_|\___|
+    
+    Choose a category:
+    1. Tech
+    2. Math
+    3. Physics
+    4. Finance
+    """)
+    choice = input("Enter the number of your choice: ")
+    choices = {
+        "1": "tech",
+        "2": "math",
+        "3": "physics",
+        "4": "finance"
+    }
+
+    return choices.get(choice, None)
+
+
 def main() -> int:
     """Main program execution."""
-    parser = setup_argparse()
-    args = parser.parse_args()
 
-    if args.verbose:
-        logging.getLogger().setLevel(logging.DEBUG)
+    selection_word = display_menu()
+
+    if not selection_word:
+        print("ERROR: Invalid choice. Please select a valid option.", file=sys.stderr)
+        return 1
 
     landing_pages = URLs()
 
@@ -124,15 +160,11 @@ def main() -> int:
         print("ERROR: Supported browsers not found for your platform.", file=sys.stderr)
         return 1
 
-    if len(sys.argv) != 2:
-        print(f"ERROR: Expected 1 argument but got {len(sys.argv) - 1}.", file=sys.stderr)
+    if selection_word not in [child.tag for child in ET.parse(landing_pages.abs_path_to_urls).getroot()]:
+        print(f"ERROR: Invalid selection word '{selection_word}'.", file=sys.stderr)
         return 1
 
-    if args.selection_word not in [child.tag for child in ET.parse(landing_pages.abs_path_to_urls).getroot()]:
-        print(f"ERROR: Invalid selection word '{args.selection_word}'.", file=sys.stderr)
-        return 1
-
-    urls = landing_pages.get_urls(args.selection_word)
+    urls = landing_pages.get_urls(selection_word)
     if not urls:
         print("No URLs found for the provided selection word.", file=sys.stderr)
         return 1
@@ -140,7 +172,8 @@ def main() -> int:
     landing_pages.open_urls(browser_path, urls)
     print("URLs opened successfully.")
 
-    print("breakpoint")
+    return 0
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     sys.exit(main())
