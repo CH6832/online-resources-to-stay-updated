@@ -205,7 +205,6 @@ To add new tests:
 2. Follow the same pattern for writing tests, using **Google Test**'s macros like `TEST()`, `ASSERT_EQ()`, `EXPECT_TRUE()`, etc.
 3. Make sure to add new test files to the `CMakeLists.txt` under the `add_executable(webpage-opener)` section.
 
-
 ## What Resources are Used to Create the Project?
 
 * C++
@@ -229,11 +228,6 @@ To add new tests:
   * [Master the Art of Command Line: Your Ultimate Guide to Developing Powerful Tools](https://hackernoon.com/master-the-art-of-command-line-your-ultimate-guide-to-developing-powerful-tools)
   * [Command Line Interface Guidelines](https://clig.dev/)
   * [Building a Network Command Line Interface in Go](https://tutorialedge.net/golang/building-a-cli-in-go/)
-
-- **CMake**: A cross-platform build system generator.
-- **libxml2**: A library for parsing XML files, which is used to read and extract URLs from the provided XML data.
-- **fmt**: A modern formatting library for C++, which simplifies string formatting.
-- **Visual Studio Community Edition**: The IDE used for development, providing comprehensive debugging and project management features.
 
 ## License
 
