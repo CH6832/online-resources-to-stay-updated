@@ -1,0 +1,3 @@
+#include "../includes/resources.h"
+
+IDR_DATA_XML   RCDATA   "data.xml"
