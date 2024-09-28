@@ -119,19 +119,19 @@ The **separation of concerns** is a key principle in this architecture, ensuring
    - An examples looks like this:
       ```bash
       {
-      "version": "0.2.1",
-      "defaults": {},
-      "configurations": [
-         {
-            "type": "default",
-            "project": "CMakeLists.txt",
-            "projectTarget": "webpage-opener.exe (webpage-opener\\webpage-opener.exe)",
-            "name": "webpage-opener.exe (webpage-opener\\webpage-opener.exe)",
-            "args": [
-            "finance"
-            ]
-         }
-      ]
+        "version": "0.2.1",
+        "defaults": {},
+        "configurations": [
+           {
+              "type": "default",
+              "project": "CMakeLists.txt",
+              "projectTarget": "webpage-opener.exe (webpage-opener\\webpage-opener.exe)",
+              "name": "webpage-opener.exe (webpage-opener\\webpage-opener.exe)",
+              "args": [
+              "finance"
+              ]
+           }
+        ]
       }
       ```
 
