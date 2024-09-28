@@ -67,7 +67,6 @@ The **separation of concerns** is a key principle in this architecture, ensuring
 ## Content overview
 
     .
-    ├── .vs/ - visula studio specific settings
     ├── out/ - contains binary files and releavant metadata
     ├── vcpkg - package manager with third-party libraries
     ├── webpage-opener - source code
