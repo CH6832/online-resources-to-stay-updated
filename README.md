@@ -1,6 +1,5 @@
 # Webpage Opener
 
-
 ## Table of Contents
 - [Webpage Opener](#webpage-opener)
   - [Table of Contents](#table-of-contents)
@@ -22,13 +21,13 @@
   - [License](#license)
   - [Copyright](#copyright)
 
-## What is the Project Created For?
+## What is the project created for?
 
 The **Webpage Opener** project is designed to provide a simple command-line tool that reads a specified XML file containing URLs and opens them in the default web browser. This tool is useful for automating the process of opening multiple web pages quickly, making it ideal for developers and testers who need to access several resources in a short time.
 
-## How It Was Created
+## How it was created?
 
-The project was created using **CMake**, a cross-platform build system that simplifies the build process for C++ projects. The source code is organized into multiple files, including the main application logic, header files, and resource files (such as XML data). The project uses libraries like **libxml2** for XML parsing and **fmt** for formatted output.
+The project was created using **CMake**, a cross-platform build system that simplifies the build process for **C++ projects**. The source code is organized into multiple files, including the main application logic, header files, and resource files (such as XML data). The project uses libraries like **libxml2** for XML parsing and **gtest** for efficient testing.
 
 ### Design Patterns
 
@@ -75,7 +74,7 @@ The **separation of concerns** is a key principle in this architecture, ensuring
     ├── LICENSE - license text
     └──README.md - project information
 
-## How to open the Project
+## How to open the project
 
 0. **Clone the Repository:**
    To open the project, you first need to clone the repository from GitHub (or wherever it's hosted):
@@ -99,20 +98,20 @@ The **separation of concerns** is a key principle in this architecture, ensuring
      - **Apache Netbeans IDE**
      - ...
 
-## How to Run the Project
+## How to run the project
 
-0. **Build the Project:**
+0. **Build the project:**
    - Ensure the project is built by selecting `Build` -> `Build Solution` from the menu.
    - This will generate the executable in the output directory (typically found under `out/build/x64-debug`).
 
-1. **Run the Executable:**
+1. **Run the executable:**
    - You can run the executable directly from the command line:
       ```bash
       cd webpage-opener/out/build/x64-release/webpage-opener
       ./webpage-opener.exe
       ```
 
-## How to Debug the Project
+## How to debug the project
 
 0. **Set Up Debug Configuration:**
    - Open the project in Visual Studio.
@@ -140,7 +139,7 @@ The **separation of concerns** is a key principle in this architecture, ensuring
    - Set breakpoints in the code by clicking in the margin next to the line numbers.
    - Press `F5` to start debugging or select `Debug` -> `Start Debugging` from the menu.
 
-## How to Test the Project
+## How to test the project
 
 The project includes unit tests to ensure the functionality of the `webpage-opener` tool. We use **Google Test** as the testing framework. Below are the steps to run and manage the tests using **Microsoft Visual Studio Community Edition**.
 
@@ -150,7 +149,7 @@ Before running tests, ensure that you have:
 1. **Google Test** installed via **vcpkg** (set up as a static library).
 2. A properly configured `CMakeLists.txt` file, which includes the test executable.
 
-### Steps to Run Tests in Visual Studio
+### Steps to run tests in Visual Studio
 
 1. **Open the Project in Visual Studio**:
    - Open **Visual Studio Community Edition**.
@@ -164,12 +163,12 @@ Before running tests, ensure that you have:
        <path_to_vcpkg>\scripts\buildsystems\vcpkg.cmake
        ```
 
-3. **Build the Project**:
+3. **Build the project**:
    - In Visual Studio, make sure the project is set to the `Debug` configuration.
    - Click `Build` -> `Build All` or use the `Ctrl + Shift + B` shortcut to build both the main executable and the test executable (e.g., `webpage-opener`).
    - This will generate the `webpage-opener` executable and the unit test executable (`webpage-opener`).
 
-4. **Run the Tests**:
+4. **Run the tests**:
    - In the **Test Explorer** window of Visual Studio, you should see the list of Google Test unit tests that were discovered.
    - If **Test Explorer** is not visible, go to `Test` -> `Windows` -> `Test Explorer` to open it.
    - From the **Test Explorer**, click `Run All` to run all the tests or selectively run individual tests.
@@ -197,14 +196,14 @@ You can also run tests via the command line if you prefer:
      ctest
      ```
 
-### Adding New Tests
+### Adding new tests
 
 To add new tests:
 1. Create additional test files in the `test/` directory (e.g., `test/test_new_feature.cpp`).
 2. Follow the same pattern for writing tests, using **Google Test**'s macros like `TEST()`, `ASSERT_EQ()`, `EXPECT_TRUE()`, etc.
 3. Make sure to add new test files to the `CMakeLists.txt` under the `add_executable(webpage-opener)` section.
 
-## What Resources are Used to Create the Project?
+## What Resources are used to create the project?
 
 * C++
   * [CPlusPlus](https://cplusplus.com/)
